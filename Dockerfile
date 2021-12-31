@@ -1,4 +1,4 @@
-FROM kartoza/postgis:12.4
+FROM kartoza/postgis:13.3
 
 RUN apt-get update\
     && apt-get install git -y
